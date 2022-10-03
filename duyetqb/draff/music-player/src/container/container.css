@@ -1,0 +1,7 @@
+.container {
+  padding: 20px 25px;
+  display: flex;
+  max-width: 1130px;
+  margin: 30px auto;
+  background-image: linear-gradient(to bottom, #fff, rgb(239, 238, 238));
+}

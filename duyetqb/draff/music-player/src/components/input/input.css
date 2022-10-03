@@ -1,0 +1,15 @@
+.search {
+  display: flex;
+  padding: 10px 10px 10px 30px;
+}
+
+.search .search__input {
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.search .search__icon {
+  cursor: pointer;
+}

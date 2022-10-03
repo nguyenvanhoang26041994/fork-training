@@ -1,0 +1,69 @@
+.popular {
+  padding: 18px 40px;
+}
+
+.popular .popular__label {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.popular .popular__title {
+  font-size: 56px;
+}
+
+.popular__list {
+  padding: 20px 0px 0px 0px;
+}
+
+.popular .song-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0px;
+}
+
+.popular .song-item__avatar {
+  display: flex;
+  align-items: center;
+}
+
+.popular .song-item__like-section {
+  display: flex;
+  margin-right: 30px;
+}
+
+.popular .song-item__avatar--icon-star {
+}
+
+.popular .song-item__avatar--image-avatar {
+  width: 25px;
+  height: 25px;
+  border-radius: 999px;
+  object-fit: cover;
+  margin: 0px 10px;
+}
+
+.popular .song-item__avatar--name {
+  font-size: 14px;
+}
+
+.popular .like-section__item {
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.popular .like-section__item--icon-heart,
+.like-section__item--icon-play {
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+}
+
+.popular .like-section__icon-play {
+}
+
+.popular .like-section__item--text-counter {
+  font-size: 12px;
+  font-weight: 700;
+}
