@@ -1,0 +1,112 @@
+
+.banner .content {
+  width: 50%;
+  position: absolute;
+  left: 127px;
+  z-index: 2;
+}
+
+.banner .content__title {
+  color: #fff;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+}
+
+.banner .content__description {
+  color: #fff;
+}
+
+.banner .content__title .text-highlight {
+  color: var(--green);
+}
+
+.banner .tool {
+  display: flex;
+  padding: 45px 0px;
+}
+
+.banner .tool-list .tool-item {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.banner .tool-item__name {
+  margin-left: 10px;
+}
+
+.banner .content__button {
+  margin-top: 55px;
+  margin-bottom: 10px;
+}
+
+.banner .wrap-image {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.banner .wrap-image .image-banner {
+  object-fit: cover;
+  height: 100%;
+  position: absolute;
+  right: 4%;
+}
+
+.banner .tool .chart {
+  padding: 20px;
+  margin-left: 113px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.banner .tool .chart .chart__item {
+  width: 12px;
+  display: inline-block;
+  background: linear-gradient(180deg, rgba(73, 182, 73, 0.5) 0%, #49b649 100%);
+  border-radius: 20px;
+}
+
+.banner .tool .chart__item:nth-child(1) {
+  height: 50px;
+}
+
+.banner .tool .chart__item:nth-child(2) {
+  height: 79px;
+}
+
+.banner .tool .chart__item:nth-child(3) {
+  height: 96px;
+}
+
+.banner .tool .chart__item:nth-child(4) {
+  height: 120px;
+}
+
+.banner .tool .chart__item:nth-child(5) {
+  height: 79px;
+}
+
+.banner .tool .chart__item:nth-child(6) {
+  height: 103px;
+}
+
+.banner .tool .chart__item:nth-child(7) {
+  height: 88px;
+}
+.banner .tool .chart__item:nth-child(8) {
+  height: 114px;
+}
+
+.banner .tool .chart__item:not(:nth-child(1)) {
+  margin-left: 15px;
+}
+
+.banner .tool .chart__description {
+  color: var(--green);
+  margin-top: 16px;
+  text-align: center;
+}

@@ -1,0 +1,36 @@
+.header {
+  padding: 10px 0px;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.header__nav .list-item {
+  margin: 0 15px;
+}
+
+.header__nav .list-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__nav .list-item a:hover {
+  color: var(--green);
+  transition: all 0.4s ease;
+}
+
+.header__nav .list-item .button-contact {
+  padding: 9px 25px;
+  border-radius: 10px;
+  background-color: var(--green);
+  color: #fff;
+  cursor: pointer;
+}

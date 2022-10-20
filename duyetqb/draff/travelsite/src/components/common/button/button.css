@@ -1,0 +1,10 @@
+
+
+.button-default {
+    padding: 9px 25px;
+    border-radius: 10px;
+    background-color: var(--green);
+    color:#fff;
+    cursor: pointer;
+    display: block;
+}
